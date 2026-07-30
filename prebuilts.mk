@@ -14,8 +14,8 @@
 include vendor/extras/misc/ax_tflite/common.mk
 
 # Gallery
-PRODUCT_PACKAGES += \
-    Glimpse
+#PRODUCT_PACKAGES += \
+#    Glimpse
 
 ifneq ($(WITH_GAPPS),true)
 PRODUCT_PACKAGES += \
